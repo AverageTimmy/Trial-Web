@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: black;
+}
+.container {
+font-size: 15px;
+ padding-top: 6%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ 
+}
+
+.card {
+    background-color: rgb(238, 248, 248);
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+.card-image {
+    background-color: red;
+    height: 150px;
+    margin-bottom: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.car-1 {
+    background-image: url('WebPic/Sky2.jpg');
+    background-size: cover;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+
+.car-2 {
+    background-image: url('WebPic/Paper.jpg');
+    background-size: cover;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+.car-3 {
+    background-image: url('WebPic/Paper2.jpg');
+    background-size: cover;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+
+.car-4 {
+    background-image: url('WebPic/documentPic.jpg');
+    background-size: cover;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+
+.car-5 {
+    background-image: url('WebPic/Sky4.jpg');
+    background-size: cover;
+    height: 170px;
+    margin-bottom: 15px;
+
+}
+
+.card-p {
+    padding: 10%;
+}
+
+.card-a {
+    size: 10px;
+    background-color: black;
+    color: azure;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+    text-decoration: none;
+    
+}
+
+
+.card-h2 {
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
